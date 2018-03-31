@@ -35,6 +35,7 @@ def main():
     while j > 0:
         simple_solution(N)
         formula_solution(N)
+        j = j - 1
     """
     results {python3 -m cProfile even_fib.py}:
     ncalls  tottime  percall  cumtime  percall  filename:lineno(function)
